@@ -2,9 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { App } from 'components/App';
 import './index.css';
+import { Main } from 'components/Main';
 
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+const root = document.getElementById("root");
+
+//  const main = React.createElement("div", {id:"main_id", className:"test_class"}, "hello world")
+
+// ReactDOM.createRoot(root).render(<Main/>);
+ReactDOM.createRoot(root).render(<App />);
