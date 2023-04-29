@@ -1,15 +1,10 @@
-import { Main } from "./Main";
-import { Profile } from "./Profile";
-import { Statistics } from "./Statistics";
-import { FriendList} from "./FriendList"
+
+
 
 export const App = () => {
   return (
     <div>
-      {/* <Main /> */}
-      <Profile />
-      <Statistics />
-      <FriendList />
+    
     </div>
   );
 };
